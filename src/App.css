@@ -5,3 +5,17 @@
   font-family: 'Inter', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.main{
+  background: url('./images/Image.svg');
+  background-color: blueviolet;
+  min-height: 600px;
+ /*  max-width: 1440px; */
+}
+
+.logo{
+  margin-left: 20px;
+}
+.center{
+  max-width: 960px;
+  background-color: burlywood;
+}

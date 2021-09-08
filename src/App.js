@@ -1,10 +1,13 @@
+import Badge from './images/Badge.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <div className="main">
-        <div className="logo"></div>
+        <div className="logo">
+          <img src={ Badge } alt="logo-img"/>
+        </div>
         <div className="center">
         <div className="menu">
           <div className="menu-right">
