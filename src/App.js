@@ -8,7 +8,7 @@ function App() {
         <div className="logo">
           <img src={ Badge } alt="logo-img"/>
         </div>
-        <div className="center">
+        <div className="nav-bar">
         <div className="menu">
           <div className="menu-right">
             <h5>menu right</h5>
