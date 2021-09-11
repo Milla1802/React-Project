@@ -1,5 +1,8 @@
 import '../App.css';
 import Badge from '../images/Badge.svg';
+import Playbutton from '../images/Playbutton.svg';
+import ImageHeader from '../images/ImageHeader.svg';
+
 
 function Header() {
     return(
@@ -24,7 +27,17 @@ function Header() {
         </div>
         <div className="header-main">
             <div className="center">
-              
+              <div className="center_rigth">
+                <h1>Easily create or join a local nanny share with Hapu</h1>
+                <p>Hapu is Airbnb for nanny share. Share your home, nanny and costs and create new flexible, affordable solutions in childcare.</p>
+                <div className="play-button">
+                  <div><a href=" "><img src={ Playbutton } alt="play-button" /></a></div>
+                  <div><a href=" "><p>See hapu in action (27 seconds)</p></a></div>
+                </div>
+              </div>
+              <div className="center_left">
+              <a href=" "><img src={ ImageHeader } alt="image_header" /></a>
+              </div>
             </div>
           </div>
       </section>
